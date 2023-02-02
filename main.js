@@ -14,7 +14,7 @@ const arrayOfStrings = [
   enterString("Second string"),
   enterString("Third string"),
 ];
-let lineResult = [];
+const lineResult = [];
 
 for (let i = 0; i < 3; i++) {
   for (let j = 0; j < 3; j++) {
@@ -51,7 +51,7 @@ function enterNumber() {
 }
 
 let number = enterNumber();
-let numberResult = [];
+const numberResult = [];
 
 for (let i = 10000; number; i /= 10) {
   numberResult.push(Math.trunc(number / i));
